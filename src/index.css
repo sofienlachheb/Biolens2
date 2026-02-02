@@ -1,0 +1,21 @@
+/* Global */
+:root{
+  --primary:#667eea;
+  --secondary:#764ba2;
+  --success:#10b981;
+  --warning:#f59e0b;
+  --danger:#ef4444;
+  --dark:#1e293b;
+  --light:#f8fafc;
+}
+html, body{
+  height:100%;
+}
+body{
+  margin:0;
+  font-family: 'Cairo', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  direction: rtl;
+}
+*{ box-sizing:border-box; }
